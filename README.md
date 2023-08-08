@@ -21,6 +21,7 @@ and admin consent
 
 ### set permissions on SharePoint site / step 2
 
+```
 POST https://graph.microsoft.com/v1.0/sites/{siteId}/permissions
 
 Content-Type: application/json
@@ -42,6 +43,7 @@ Content-Type: application/json
 }]
 
 }
+```
 
 https://blog.topedia.com/2022/08/sites-selected-berechtigung-in-sharepoint-und-microsoft-graph-api/
 
