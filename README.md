@@ -13,7 +13,7 @@ Two a additional document library is created.
 
 ## get SP site id
 
-To Get Site Collection ID, hit this URL in the browser: https://<tenant>.sharepoint.com/sites/<site-url>/\_api/site/id
+To Get Site Collection ID, hit this URL in the browser: https://< tenant >.sharepoint.com/sites/< site-url >/\_api/site/id
 
 ## app registration
 
@@ -47,10 +47,12 @@ https://learn.microsoft.com/en-us/graph/api/driveitem-move?view=graph-rest-1.0&t
 ## not worked / not made to work
 
 - add & change custom metadata field
-  ´´´
+
+  ```
   check status of custom matadata field "downloaded"
   Write-Host $file.ListItem.Fields.AdditionalProperties.downloaded
-  ´´´
+  ```
+
 - Compare Hash
 
 https://superuser.com/questions/1643084/how-to-not-overwrite-existing-files
