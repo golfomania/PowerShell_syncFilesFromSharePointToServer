@@ -13,7 +13,7 @@ Two a additional document library is created.
 
 ## get SP site id
 
-To Get Site Collection ID, hit this URL in the browser: https://< tenant >.sharepoint.com/sites/< site-url >/\_api/site/id
+To Get Site Collection ID, hit this URL in the browser: https://<tenant>.sharepoint.com/sites/<site-url>/\_api/site/id
 
 ## app registration
 
@@ -28,7 +28,7 @@ see .ps1 file, then upload to app registration
 
 https://learn.microsoft.com/en-us/powershell/microsoftgraph/installation?view=graph-powershell-1.0
 
-## app-ony auth with PowerShell SDK
+## app-only auth with PowerShell SDK
 
 https://learn.microsoft.com/en-us/powershell/microsoftgraph/app-only?view=graph-powershell-1.0&tabs=azure-portal
 
@@ -44,7 +44,7 @@ see .ps1 file
 
 https://learn.microsoft.com/en-us/graph/api/driveitem-move?view=graph-rest-1.0&tabs=powershell
 
-## not worked / not made to work
+## not working / not made to work
 
 - add & change custom metadata field
 
