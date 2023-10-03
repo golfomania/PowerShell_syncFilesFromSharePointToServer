@@ -6,7 +6,7 @@ The target is to create a PowerShell script to sync files from SharePoint to a l
 
 A new Website is created in SharePoint.
 
-Two a additional document library is created.
+An additional document library is created.
 
 - The default document library is used as source for the files to sync down
 - the additional document library is used as place where the already synced files are moved to to avois overwriting
